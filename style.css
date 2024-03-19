@@ -1,0 +1,65 @@
+body {
+  color: navy;
+  background-color: rgb(52, 203, 178);
+}
+
+h1 {
+  color: rgb(78, 230, 40);
+  margin-left: 30px;
+  padding-left: 10px;
+}
+.menu {
+  margin-right: 30px;
+}
+.menu a {
+  margin-left: 20px;
+  
+}
+
+/* '*' astrick sign effects every element in page*/
+/* * {
+    border: solid;
+} */
+
+/* only header element is effected
+.header * {
+  border: solid;
+}*/
+
+/* only item element is effected*/
+/*.item * {
+    border:solid;
+    position:relative;
+}*/
+
+.header {
+  background-color: #0a0321;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+p,
+h2 {
+  text-align: center;
+}
+
+a:link {
+  color: rgb(79, 220, 63);
+}
+a:visited {
+  color: rgb(255, 0, 21);
+}
+
+/* element refered directly eg h, p, body */
